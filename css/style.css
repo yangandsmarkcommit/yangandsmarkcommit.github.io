@@ -1,15 +1,21 @@
 /* navbar */
+
+/*
 .navbar-inner {
-    background-color: #ffdbf4;
+    background-color: #ef343e; //#cfe165; //#0f7bbf; //#ffdbf4;
     background-image: none;
 }
+*/
 
+#span4 {
+    width: 30%;
+}
 
 #intro {
     background: url(../images/yangsmarkgraffiti.jpg) 0% 0 fixed;
     background-size: cover;
-    height: 600px;
-    margin: 0 auto;
+    height: 650px;
+    margin: 0 0;
     width: 100%;
     position: center center;
     padding: 100px 0;
@@ -29,7 +35,7 @@
 #features {
     background: url(../images/canyon3.JPG) 0% 0 fixed;
     background-size: cover;
-    height: 600px;
+    height: 650px;
     margin: 0 auto;
     width: 100%;
     position: center center;
@@ -38,11 +44,11 @@
 #empty-ny {
     background: url(../images/teashoptea.JPG) 50% 0 fixed;
     background-size: cover;
-    height: 600px;
+    height: 650px;
 }
 
 #about {
-    background-color: #0f7bbf; // 
+    background-color: #ef343e; //#cfe165; // #0f7bbf;
     height: auto;
     margin: 0 auto;
     width: 100%;
@@ -57,7 +63,7 @@
 
 
 .footer-background {
-    background-color: #ffdbf4; //#cfe165; //#ef343e;
+    background-color: #ef343e; //#cfe165; //#0f7bbf; //#ffdbf4; 
     min-height: 60px;
     width: 100%;
         color: #fff;
@@ -79,4 +85,98 @@
 .footer-menu > li:first-child > a {
     border-left: medium none;
     padding: 0 8px 0 0;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+  background-color: #e74c3c;
+  border-color: #c0392b;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffdbf4;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffdbf4;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #e74c3c;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffdbf4;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #c0392b;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffdbf4;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffdbf4;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffdbf4;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-toggle {
+  border-color: #c0392b;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #c0392b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffdbf4;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffdbf4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffdbf4;
+    background-color: #c0392b;
+  }
 }
