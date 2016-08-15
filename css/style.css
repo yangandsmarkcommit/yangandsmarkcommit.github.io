@@ -28,8 +28,12 @@
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
-    padding: 60px;
+    padding: 10px;
     text-align: center;
+}
+
+.label-default {
+    background-color: rgba(200, 200, 200, 0.5);
 }
 
 #features {
