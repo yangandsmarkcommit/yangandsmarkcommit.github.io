@@ -11,6 +11,29 @@
     width: 30%;
 }
 
+.shouldBeWrap {
+    position: relative;
+    top: 240px;
+    left: 625px;
+    height: 10px;
+}
+
+.shouldBe {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.shouldBeWrap:hover .shouldBe {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(183,170,117,1);
+    border: 5px;
+    border-color: #000;
+}
+
 #intro {
     background: url(../images/yangsmarkgraffiti.jpg) 0% 0 fixed;
     background-size: cover;
