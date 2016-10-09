@@ -22,6 +22,19 @@
 
 }
 
+/* on partydetails page*/
+#details {
+    background: url(../images/livingroom.jpg) 0% 0 fixed;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    width: 100%;
+    position: center center;
+    padding: 100px 0;
+
+}
+
+
 .intro-unit {
     border-radius: 6px 6px 6px 6px;
     color: #f5f5f5;
@@ -30,6 +43,39 @@
     line-height: 30px;
     padding: 10px;
     text-align: center;
+}
+
+/* on partydetails page*/
+.details-unit {
+    border-radius: 6px 6px 6px 6px;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.deets {
+    height: 180px;
+    padding: 20px;
+    background-color: rgba(200,200,200,0.6);
+    color: #fff;
+    border: none;
+}
+
+.deets a:visited {
+    color: #b8d044;
+}
+    
+.deets a:active {
+    color: #999;
+}
+    
+.deets a {
+    color: #452 !important;
 }
 
 .label-default {
@@ -45,11 +91,24 @@
     position: center center;
 }
 
+/* partydetails page */
+#dresscode {
+    background: url(../images/smarkyangfancy.jpg) 0% 0 fixed;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    width: 100%;
+    position: center center;
+    padding: 100px 0;
+}
+
+
 #empty-ny {
     background: url(../images/teashoptea.JPG) 50% 0 fixed;
     background-size: cover;
     height: 650px;
 }
+
 
 #about {
     background-color: #ef343e; //#cfe165; // #0f7bbf;
@@ -70,7 +129,7 @@
     background-color: #ef343e; //#cfe165; //#0f7bbf; //#ffdbf4; 
     min-height: 60px;
     width: 100%;
-        color: #fff;
+    color: #fff;
 }
 
 .footer-menu {
