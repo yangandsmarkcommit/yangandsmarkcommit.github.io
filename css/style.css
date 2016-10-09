@@ -22,7 +22,30 @@
 
 }
 
+/* on partydetails page*/
+#details {
+    background: url(../images/livingroom.jpg) 0% 0 fixed;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    width: 100%;
+    position: center center;
+    padding: 100px 0;
+
+}
+
+
 .intro-unit {
+    border-radius: 6px 6px 6px 6px;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.details-unit {
     border-radius: 6px 6px 6px 6px;
     color: #f5f5f5;
     font-size: 18px;
