@@ -53,63 +53,49 @@
 
 <section id="intro" data-speed="12" data-type="background">
     <div class="container">
-
+      
       <div class="intro-unit">
 	<h2><span class="label label-default">
           Yang and sMark 5eva!
 	  <!--
               <p>Try the auto scroll here <a class="btn scroll" href="#features">Scroll </a></p>
 	      --></span></h2>
-
+	
       </div>
     </div>
 </section>
 
 <section id="features" data-speed="4" data-type="background">
-    <div class="intro-unit">
-        <h2></h2>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class = "col-sm-6 col-md-4">
-	  <div class="thumbnail">
-	    <div class="caption">
-              <h2>Where</h2>
-	      
-              <p><a href="https://www.facebook.com/villa.tramonto.1/">Villa Tramonto</a></p>
-	      <p>Pacific Palisades, CA</p>
-	      
-            </div>
-	  </div>
+  <div class="intro-unit">
+    <h2></h2><br><br><br>
+  </div>    
+  <div class="container">
+    <div class="row">
+      <div class = "col-sm-6 col-md-4 col-md-offset-2">
+	<div class= "panel panel-default deets">
+          <h2>Where</h2>
+	  
+          <p><h3><a href="https://www.facebook.com/villa.tramonto.1/">Villa Tramonto</a></h3></p>
+	  <p><h4>Pacific Palisades, CA</h4></p>
 	</div>
-        <!-- /.span4 -->
-        <div class="col-sm-6 col-md-4">
-	  <div class="thumbnail">
-	    <div class="caption">
-              <h2>When</h2>
-	      <p>4pm - 11pm - 2am</p>
-	      <p>February 18 or 19, 2017</p>
- 
-              <!-- link to more details and schedule should go here
-		  <p><a class="btn scroll-top-bottom" href="#">funky scrolling</a></p>-->
-            </div>
-	  </div>
-	</div>
+      </div>
+      <!-- /.span4 -->
+      <div class="col-sm-6 col-md-4">
+	<div class = "well well-sm deets">
+          <h2>When</h2>
+	  <p><h4>4pm - 11pm - 2am</h4></p>
+	  <p><h4>February 19, 2017</h4></p>
+	  <p><h5><a href="/partydetails.html">Tell me more</a></h5></p>
 	
-        <!-- /.span4
-             <div class="span4 well">
-               <h2>Activities</h2>
-	       
-               <p>Automatically scrolling is always cool. Isn't it?</p><br>
-	       
-               <p><a class="btn scroll" href="#about">Go to bottom</a></p>
-             </div>
-             -->
+          <!-- link to more details and schedule should go here
+	       <p><a class="btn scroll-top-bottom" href="#">funky scrolling</a></p>-->
+        </div>
       </div>
     </div>
+  </div>
 </section>
 
-<section id="empty-ny" data-speed="6" data-type="background">
+<section id="teatime" data-speed="6" data-type="background">
 
 </section>
 

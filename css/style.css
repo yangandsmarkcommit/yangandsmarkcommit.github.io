@@ -22,6 +22,13 @@
 
 }
 
+.more-deets {
+    padding: 20px;
+    background-color: rgba(109,71,81,0.5); // rgba(206,72,99,0.3); // rgba(109,38,52,0.3); // rgba(200,200,200,0.6);
+    color: #fff; // #ef343e; // #ffdbf4; // #0f7bbf;
+    border: none;
+    text-align: center;
+}    
 /* on partydetails page*/
 #details {
     background: url(../images/livingroom.jpg) 0% 0 fixed;
@@ -56,8 +63,6 @@
     text-align: center;
 }
 
-
-
 .deets {
     height: 180px;
     padding: 20px;
@@ -76,6 +81,7 @@
     
 .deets a {
     color: #452 !important;
+    font-weight: bold;
 }
 
 .label-default {
@@ -102,8 +108,37 @@
     padding: 100px 0;
 }
 
+.dress-code {
+    height: 180px;
+    padding: 20px;
+    background-color: rgba(200,200,200,0.7);
+    color: #fff;
+    border: none;
+}
 
-#empty-ny {
+.dress-code small {
+    color: rgba(103,76,96,1);
+}
+
+
+#activities {
+    background: url(../images/smarksitting.JPG) 0% 0 fixed;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    width: 100%;
+    position: center center;
+    padding: 100px 0;
+}
+
+.activities-list {
+    padding: 20px;
+    background-color: rgba(200,200,200,0.7);
+    color: #fff;
+    border: none;
+}
+
+#teatime {
     background: url(../images/teashoptea.JPG) 50% 0 fixed;
     background-size: cover;
     height: 650px;
@@ -111,14 +146,44 @@
 
 
 #about {
-    background-color: #ef343e; //#cfe165; // #0f7bbf;
+    background-color: rgba(140,168,84,1); // #9fa165; // #ef343e; // #0f7bbf;
     height: auto;
     margin: 0 auto;
     width: 100%;
     position: relative;
     padding: 50px 0;
-    color: #fff;
+    color: #fff; // #cfe165;
 }
+
+/* on partydetails page */
+#explore {
+    background: url(../images/lynnsmarkclimb.JPG) 0% 0 fixed;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    width: 100%;
+    position: center center;
+    padding: 100px 0;
+}
+
+.explore-list {
+    padding: 20px;
+    background-color: rgba(200,200,200,0.7);
+    color: #fff;
+    border: none;
+}
+
+.explore-list a {
+    color: #e5f1a5 !important;
+    font-weight: bold;
+}
+.explore-list a:active {
+    color: #999;
+}
+.explore-list a:visited {
+    color: #b8d044;
+}
+
 
 #footer {
 
@@ -126,7 +191,7 @@
 
 
 .footer-background {
-    background-color: #ef343e; //#cfe165; //#0f7bbf; //#ffdbf4; 
+    background-color: rgba(140,168,84,1); // #452; // #ef343e; //#cfe165; //#0f7bbf; //#ffdbf4; 
     min-height: 60px;
     width: 100%;
     color: #fff;
