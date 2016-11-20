@@ -41,6 +41,25 @@
 
 }
 
+#engagement {
+    background: #ddd url(../images/engagement_x.jpg) no-repeat fixed center 0;
+    background-size: cover;
+    height: 650px;
+    margin: 0px 0px;
+    width: 100%;
+    padding: 100px 0;
+
+}
+
+#yyportrait {
+    background: #ddd url(../images/yangsmile.jpg) no-repeat fixed center 0;
+    background-size: cover;
+    height: 650px;
+    margin: 0px 0px;
+    width: 100%;
+    padding: 100px 0;
+
+}
 
 .intro-unit {
     border-radius: 6px 6px 6px 6px;
@@ -120,6 +139,22 @@
     color: rgba(103,76,96,1);
 }
 
+#earlydays {
+    background: #ddd url(../images/couplebeginning.jpg) no-repeat fixed center 0;
+    background-size: cover;
+    height: 650px;
+    margin: 0px 0px;
+    width: 100%;
+    padding: 100px 0;
+}
+
+
+#teatime {
+    background: url(../images/teashoptea.JPG) 50% 0 fixed;
+    background-size: cover;
+    height: 650px;
+}
+
 
 #activities {
     background: url(../images/smarksitting.JPG) 0% 0 fixed;
@@ -138,10 +173,13 @@
     border: none;
 }
 
-#teatime {
-    background: url(../images/teashoptea.JPG) 50% 0 fixed;
+#bund {
+    background: url(../images/couplebund.jpg) 0% 0 fixed;
     background-size: cover;
     height: 650px;
+    margin: 0 0;
+    padding: 100px 0;
+
 }
 
 
@@ -184,6 +222,16 @@
     color: #b8d044;
 }
 
+#florence {
+    background: #ddd url(../images/coupleriverflorence_x.JPG) no-repeat fixed 0% 0;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    padding: 100px 0;
+
+}
+
+
 
 #footer {
 
@@ -215,96 +263,3 @@
     padding: 0 8px 0 0;
 }
 
-.navbar {
-    margin-bottom: 0px;
-}
-
-.navbar-default {
-  background-color: #e74c3c;
-  border-color: #c0392b;
-}
-.navbar-default .navbar-brand {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #ffdbf4;
-}
-.navbar-default .navbar-text {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffdbf4;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #e74c3c;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #ffdbf4;
-  background-color: #c0392b;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-  background-color: #c0392b;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #ffdbf4;
-  background-color: #c0392b;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #ffdbf4;
-  background-color: #c0392b;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #ffdbf4;
-  background-color: #c0392b;
-}
-.navbar-default .navbar-toggle {
-  border-color: #c0392b;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #c0392b;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ecf0f1;
-}
-.navbar-default .navbar-link {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-link:hover {
-  color: #ffdbf4;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffdbf4;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffdbf4;
-    background-color: #c0392b;
-  }
-}
