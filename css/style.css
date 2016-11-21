@@ -1,15 +1,12 @@
-/* navbar */
-
-/*
-.navbar-inner {
-    background-color: #ef343e; //#cfe165; //#0f7bbf; //#ffdbf4;
-    background-image: none;
-}
-*/
 
 #span4 {
     width: 30%;
 }
+
+h1, h2, h3, h4, p {
+    text-shadow: none;
+}
+
 
 #intro {
     background: url(../images/yangsmarkgraffiti.jpg) 0% 0 fixed;
@@ -52,8 +49,8 @@
 }
 
 #yyportrait {
-    background: #ddd url(../images/yangsmile.jpg) no-repeat fixed center 0;
-    background-size: cover;
+    background: #222 url(../images/yangsmile_x.jpg) no-repeat fixed center 0;
+    background-size: 85%;
     height: 650px;
     margin: 0px 0px;
     width: 100%;
@@ -62,8 +59,8 @@
 }
 
 #mmportrait {
-    background: #ddd url(../images/yangsmile.jpg) no-repeat fixed center 0;
-    background-size: cover;
+    background: #f0f1f5 url(../images/markfield_x.jpg) no-repeat fixed center 0;
+    background-size: 85%;
     height: 650px;
     margin: 0px 0px;
     width: 100%;
@@ -211,6 +208,17 @@
     padding: 100px 0;
 }
 
+#kidmark {
+    background: #f0f1f5 url(../images/marktopanga.JPG) no-repeat fixed 0% 0;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    position: center center;
+    margin: 0px 0px;
+    padding: 100px 0;
+    text-shadow: none;
+}
+
 #about {
     background-color: rgba(140,168,84,1); // #9fa165; // #ef343e; // #0f7bbf;
     height: auto;
@@ -278,14 +286,23 @@
     padding: 100px 0;
 }
 
-#footer {
+#teamark {
+    background: #111 url(../images/markteahouse_x.jpg) no-repeat fixed 0% 0;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    position: center center;
+    margin: 0px 0px;
+    padding: 100px 0;
+}
 
+#footer {
 }
 
 
 .footer-background {
     background-color: rgba(140,168,84,1); // #452; // #ef343e; //#cfe165; //#0f7bbf; //#ffdbf4; 
-    min-height: 60px;
+    min-height: 300px;
     width: 100%;
     color: #fff;
 }
