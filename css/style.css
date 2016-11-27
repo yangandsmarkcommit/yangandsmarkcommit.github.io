@@ -7,7 +7,11 @@ h1, h2, h3, h4, p {
     text-shadow: none;
 }
 
+.label-default {
+    background-color: rgba(200, 200, 200, 0.5);
+}
 
+/* index p1 */
 #intro {
     background: url(../images/yangsmarkgraffiti.jpg) 0% 0 fixed;
     background-size: cover;
@@ -19,14 +23,7 @@ h1, h2, h3, h4, p {
 
 }
 
-.more-deets {
-    padding: 20px;
-    background-color: rgba(109,71,81,0.5); // rgba(206,72,99,0.3); // rgba(109,38,52,0.3); // rgba(200,200,200,0.6);
-    color: #fff; // #ef343e; // #ffdbf4; // #0f7bbf;
-    border: none;
-    text-align: center;
-}    
-/* on partydetails page*/
+/* on partydetails page p1 */
 #details {
     background: url(../images/livingroom.jpg) 0% 0 fixed;
     background-size: cover;
@@ -35,9 +32,9 @@ h1, h2, h3, h4, p {
     width: 100%;
     position: center center;
     padding: 100px 0;
-
 }
 
+/* aboutus page p1 */
 #engagement {
     background: #ddd url(../images/engagement_x.jpg) no-repeat fixed center 0;
     background-size: cover;
@@ -48,16 +45,18 @@ h1, h2, h3, h4, p {
 
 }
 
+/* aboutyang page p1 */
 #yyportrait {
     background: #222 url(../images/yangsmile_x.jpg) no-repeat fixed center 0;
     background-size: 85%;
     height: 650px;
     margin: 0px 0px;
     width: 100%;
-    padding: 100px 0;
+    padding: 20px 0;
 
 }
 
+/* aboutmark p1 */
 #mmportrait {
     background: #f0f1f5 url(../images/markfield_x.jpg) no-repeat fixed center 0;
     background-size: 85%;
@@ -68,6 +67,7 @@ h1, h2, h3, h4, p {
 
 }
 
+/* index p1-u */
 .intro-unit {
     border-radius: 6px 6px 6px 6px;
     color: #f5f5f5;
@@ -78,7 +78,42 @@ h1, h2, h3, h4, p {
     text-align: center;
 }
 
+/* partydetails p1-u */
+.more-deets {
+    padding: 20px;
+    background-color: rgba(109,71,81,0.5); // rgba(206,72,99,0.3); // rgba(109,38,52,0.3); // rgba(200,200,200,0.6);
+    color: #fff; // #ef343e; // #ffdbf4; // #0f7bbf;
+    border: none;
+    text-align: center;
+}
+
+/* aboutyang p1-u */
+.yangstats {
+    padding: 20px;
+    background-color: rgba(200,200,200,0.5);
+    color: #fff;
+    border: none;
+    margin: 0px 0;
+}
+
+div.aboutfield {
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px 0px;
+}
+
+div.aboutdata {
+    text-align: right;
+    padding: 0px;
+    margin: 0px 0px;
+}
+
+.yangstats > div.row {
+    margin: 10px 0px;
+}
+
 /* on partydetails page*/
+/*
 .details-unit {
     border-radius: 6px 6px 6px 6px;
     color: #f5f5f5;
@@ -88,7 +123,88 @@ h1, h2, h3, h4, p {
     padding: 10px;
     text-align: center;
 }
+*/
 
+/* index p2 */
+#whenwhere {
+    background: url(../images/canyon3.JPG) 0% 0 fixed;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    padding: 10%;
+    width: 100%;
+    position: center center;
+}
+
+/* partydetails p2 */
+#dresscode {
+    background: url(../images/smarkyangfancy.jpg) 0% 0 fixed;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    padding: 0 10%;
+    width: 100%;
+    position: center center;
+    padding: 100px 0;
+}
+
+/* aboutus p2 not used */
+/* 
+#earlydays {
+    background: #ddd url(../images/couplebeginning.jpg) no-repeat fixed center 0;
+    background-size: cover;
+    height: 650px;
+    margin: 0px 0px;
+    width: 100%;
+    padding: 100px 0;
+}
+*/
+
+/* aboutus p2 */
+#florence {
+    background: #ddd url(../images/coupleriverflorence_x.JPG) no-repeat fixed 0% 0;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    padding: 100px 0;
+
+}
+
+/* aboutyang unused p2 */
+/*
+#babyyang {
+    background: #ddd url(../images/babyyangwmom.jpg) no-repeat fixed center 0;
+    background-size: cover;
+    height: 650px;
+    margin: 0px 0px;
+    width: 100%;
+    padding: 100px 0;
+}
+*/
+
+/* aboutyang p2 */
+#kidyang {
+    background: #ddd url(../images/yangbotanicalgardens.JPG) no-repeat fixed center 0;
+    background-size: cover;
+    height: 650px;
+    margin: 0px 0px;
+    width: 100%;
+    padding: 100px 0;
+}
+
+/* aboutmark p2 */
+#kidmark {
+    background: #f0f1f5 url(../images/marktopanga.JPG) no-repeat fixed 0% 0;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    position: center center;
+    margin: 0px 0px;
+    padding: 100px 0;
+    text-shadow: none;
+}
+
+/* index p2-u */
 .deets {
     height: 180px;
     padding: 20px;
@@ -110,31 +226,8 @@ h1, h2, h3, h4, p {
     font-weight: bold;
 }
 
-.label-default {
-    background-color: rgba(200, 200, 200, 0.5);
-}
-
-#features {
-    background: url(../images/canyon3.JPG) 0% 0 fixed;
-    background-size: cover;
-    height: 650px;
-    margin: 0 auto;
-    width: 100%;
-    position: center center;
-}
-
-/* partydetails page */
-#dresscode {
-    background: url(../images/smarkyangfancy.jpg) 0% 0 fixed;
-    background-size: cover;
-    height: 650px;
-    margin: 0 0;
-    width: 100%;
-    position: center center;
-    padding: 100px 0;
-}
-
-.dress-code {
+/* partydetails p2-u */
+.dresscode-unit {
     height: 180px;
     padding: 20px;
     background-color: rgba(200,200,200,0.7);
@@ -142,37 +235,18 @@ h1, h2, h3, h4, p {
     border: none;
 }
 
-.dress-code small {
+.dresscode-unit small {
     color: rgba(103,76,96,1);
 }
 
-#earlydays {
-    background: #ddd url(../images/couplebeginning.jpg) no-repeat fixed center 0;
-    background-size: cover;
-    height: 650px;
-    margin: 0px 0px;
-    width: 100%;
-    padding: 100px 0;
-}
-
-#babyyang {
-    background: #ddd url(../images/babyyangwmom.jpg) no-repeat fixed center 0;
-    background-size: cover;
-    height: 650px;
-    margin: 0px 0px;
-    width: 100%;
-    padding: 100px 0;
-}
-
-
-
+/* index p3 */
 #teatime {
     background: url(../images/teashoptea.JPG) 50% 0 fixed;
     background-size: cover;
     height: 650px;
 }
 
-
+/* partydetails p3 */
 #activities {
     background: url(../images/smarksitting.JPG) 0% 0 fixed;
     background-size: cover;
@@ -183,13 +257,18 @@ h1, h2, h3, h4, p {
     padding: 100px 0;
 }
 
-.activities-list {
-    padding: 20px;
-    background-color: rgba(200,200,200,0.7);
-    color: #fff;
-    border: none;
+/* aboutyang p3 */
+#muralyang {
+    background: #ddd url(../images/benchmural.JPG) no-repeat fixed 0% 0;
+    background-size: cover;
+    height: 650px;
+    margin: 0px 0px;
+    width: 100%;
+    padding: 100px 0;
 }
 
+
+/* aboutus p3 */
 #bund {
     background: url(../images/couplebund.jpg) 0% 0 fixed;
     background-size: cover;
@@ -199,27 +278,29 @@ h1, h2, h3, h4, p {
 
 }
 
-#kidyang {
-    background: #ddd url(../images/yangbotanicalgardens.JPG) no-repeat fixed center 0;
-    background-size: cover;
-    height: 650px;
-    margin: 0px 0px;
-    width: 100%;
-    padding: 100px 0;
-}
-
-#kidmark {
-    background: #f0f1f5 url(../images/marktopanga.JPG) no-repeat fixed 0% 0;
+/* aboutmark p3 */
+#teamark {
+    background: #111 url(../images/markteahouse_x.jpg) no-repeat fixed 0% 0;
     background-size: cover;
     height: 650px;
     width: 100%;
     position: center center;
     margin: 0px 0px;
     padding: 100px 0;
-    text-shadow: none;
 }
 
-#about {
+
+/* partydetails p3-u */
+.activities-list {
+    padding: 20px;
+    background-color: rgba(200,200,200,0.7);
+    color: #fff;
+    border: none;
+}
+
+
+/* index p4 */
+#ourstory {
     background-color: rgba(140,168,84,1); // #9fa165; // #ef343e; // #0f7bbf;
     height: auto;
     margin: 0 auto;
@@ -229,7 +310,7 @@ h1, h2, h3, h4, p {
     color: #fff; // #cfe165;
 }
 
-/* on partydetails page */
+/* partydetails p4 */
 #explore {
     background: url(../images/lynnsmarkclimb.JPG) 0% 0 fixed;
     background-size: cover;
@@ -240,13 +321,19 @@ h1, h2, h3, h4, p {
     padding: 100px 0;
 }
 
-.explore-list {
-    padding: 20px;
-    background-color: rgba(200,200,200,0.7);
-    color: #fff;
-    border: none;
+/* aboutyang p4 */
+#teayang {
+    background: #ddd url(../images/yangteahouse.jpg) no-repeat fixed 0% 0;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    position: center center;
+    margin: 0px 0px;
+    padding: 100px 0;
 }
 
+
+/* partydetails p4-u */
 .explore-list a {
     color: #e5f1a5 !important;
     font-weight: bold;
@@ -258,47 +345,17 @@ h1, h2, h3, h4, p {
     color: #b8d044;
 }
 
-#florence {
-    background: #ddd url(../images/coupleriverflorence_x.JPG) no-repeat fixed 0% 0;
-    background-size: cover;
-    height: 650px;
-    margin: 0 0;
-    padding: 100px 0;
-
+.explore-list {
+    padding: 20px;
+    background-color: rgba(200,200,200,0.7);
+    color: #fff;
+    border: none;
 }
 
-#muralyang {
-    background: #ddd url(../images/benchmural.JPG) no-repeat fixed 0% 0;
-    background-size: cover;
-    height: 650px;
-    margin: 0px 0px;
-    width: 100%;
-    padding: 100px 0;
-}
 
-#teayang {
-    background: #ddd url(../images/yangteahouse.jpg) no-repeat fixed 0% 0;
-    background-size: cover;
-    height: 650px;
-    width: 100%;
-    position: center center;
-    margin: 0px 0px;
-    padding: 100px 0;
-}
-
-#teamark {
-    background: #111 url(../images/markteahouse_x.jpg) no-repeat fixed 0% 0;
-    background-size: cover;
-    height: 650px;
-    width: 100%;
-    position: center center;
-    margin: 0px 0px;
-    padding: 100px 0;
-}
-
+/* every page */
 #footer {
 }
-
 
 .footer-background {
     background-color: rgba(140,168,84,1); // #452; // #ef343e; //#cfe165; //#0f7bbf; //#ffdbf4; 
