@@ -96,6 +96,25 @@ h1, h2, h3, h4, p {
     margin: 0px 0;
 }
 
+/* aboutmark p1-u */
+/* aboutmark p2-u */
+.markstats, .markbio {
+    padding: 20px;
+    background-color: rgba(40,40,40,0.4);
+    color: #fff;
+    border: none;
+    margin: 0px 0;
+}
+
+/* aboutyang p2-u */
+.yangbio {
+    padding: 20px;
+    background-color: rgba(40,40,40,0.75);
+    color: #fff;
+    border: none;
+    margin: 0px 0;
+}
+
 div.aboutfield {
     font-weight: bold;
     padding: 0px;
@@ -108,7 +127,7 @@ div.aboutdata {
     margin: 0px 0px;
 }
 
-.yangstats > div.row {
+.markstats > div.row, .yangstats > div.row {
     margin: 10px 0px;
 }
 
