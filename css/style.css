@@ -11,7 +11,7 @@ h1, h2, h3, h4, p {
     background-color: rgba(200, 200, 200, 0.5);
 }
 
-/* index p1 */
+/* indexes p1 */
 #intro {
     background: url(../images/yangsmarkgraffiti.jpg) 0% 0 fixed;
     background-size: cover;
@@ -67,6 +67,25 @@ h1, h2, h3, h4, p {
 
 }
 
+#registry {
+    background: url(../images/pottery.jpg) 0% 0 fixed;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    width: 100%;
+    position: center center;
+}
+
+#registry2 {
+    background: url(../images/plantvase_contrast.jpg) 0% 0 fixed;
+    background-size: cover;
+    height: 650px;
+    margin: 0 0;
+    width: 100%;
+    position: center center;
+}
+
+
 /* index p1-u */
 .intro-unit {
     border-radius: 6px 6px 6px 6px;
@@ -77,6 +96,15 @@ h1, h2, h3, h4, p {
     padding: 10px;
     text-align: center;
 }
+
+.registry-deets {
+    padding: 20px;
+    background-color: rgba(89,51,61,0.5); // rgba(206,72,99,0.3); // rgba(109,38,52,0.3); // rgba(200,200,200,0.6);
+    color: #fff; // #ef343e; // #ffdbf4; // #0f7bbf;
+    border: none;
+    text-align: justify;
+}
+
 
 /* partydetails p1-u */
 .more-deets {
