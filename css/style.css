@@ -1,3 +1,46 @@
+.wrapper {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.wrapper:after {
+    padding-top: 70%;
+    display: block;
+    content: '';
+}
+
+.registry-deets {
+    padding: 20px;
+    background-color: rgba(89,51,61,0.8);
+    color: #fff;
+    border: none;
+    text-align: justify;
+}
+
+
+.background-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 0;
+    width: 100%;
+}
+
+#registry {
+    background: #fff url(../images/pottery.jpg);
+    background-size: cover;
+}
+
+#registry2 {
+    background: url(../images/plantvase_contrast.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+
 .link {
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
@@ -72,24 +115,6 @@ h1, h2, h3, h4, p {
 
 }
 
-#registry {
-    background: url(../images/pottery.jpg) 0% 0 fixed;
-    background-size: cover;
-    height: 650px;
-    margin: 0 0;
-    width: 100%;
-    position: center center;
-}
-
-#registry2 {
-    background: url(../images/plantvase_contrast.jpg) 0% 0 fixed;
-    background-size: cover;
-    height: 650px;
-    margin: 0 0;
-    width: 100%;
-    position: center center;
-}
-
 
 /* index p1-u */
 .intro-unit {
@@ -100,14 +125,6 @@ h1, h2, h3, h4, p {
     line-height: 30px;
     padding: 10px;
     text-align: center;
-}
-
-.registry-deets {
-    padding: 20px;
-    background-color: rgba(89,51,61,0.5); // rgba(206,72,99,0.3); // rgba(109,38,52,0.3); // rgba(200,200,200,0.6);
-    color: #fff; // #ef343e; // #ffdbf4; // #0f7bbf;
-    border: none;
-    text-align: justify;
 }
 
 
