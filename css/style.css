@@ -102,13 +102,36 @@ h1, h2, h3, h4, p {
     text-align: center;
 }
 
+/* registry page */
 .registry-deets {
+    margin: 10px;
     padding: 20px;
     background-color: rgba(89,51,61,0.5); // rgba(206,72,99,0.3); // rgba(109,38,52,0.3); // rgba(200,200,200,0.6);
     color: #fff; // #ef343e; // #ffdbf4; // #0f7bbf;
     border: none;
     text-align: justify;
+    font-size: 10pt;
 }
+
+.registry-list a {
+    color: #e5f1a5 !important;
+    font-weight: bold;
+}
+.registry-list a:active {
+    color: #999;
+}
+.registry-list a:visited {
+    color: #b8d044;
+}
+
+.registry-list {
+    padding: 10px;
+    background-color: rgba(200,200,200,0.6);
+    color: #fff;
+    border: none;
+    height: 60%x;
+}
+
 
 
 /* partydetails p1-u */
